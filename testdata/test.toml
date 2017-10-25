@@ -1,0 +1,7 @@
+[[patterns]]
+regex = "main.go"
+template = "testdata/main.go.nudge"
+
+[[patterns]]
+regex = ".*_test.go"
+template = "testdata/test.go.nudge"
